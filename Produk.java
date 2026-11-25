@@ -32,6 +32,6 @@ public class Produk {
         }
     }
     public void display(){
-        System.out.println("[" + ID + "] " + barang + " - Rp" + harga + " (Stok: " + stock + ")");
+        System.out.println("[" + ID + "] " + barang + " - Rp" + String.format("%,.0f",harga) + " (Stok: " + stock + ")");
     }
 }
